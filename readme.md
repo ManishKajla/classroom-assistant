@@ -239,7 +239,7 @@ Make sure to add these environment variables in your production environment:
 
 ### Getting Help:
 
-- Check the [Issues](https://github.com/yourusername/classroom-ai-assistant/issues) page
+- Check the [Issues](https://github.com/manishkajla/classroom-ai-assistant/issues) page
 - Review Google Cloud Console API quotas and limits
 - Verify all environment variables are set correctly
 
