@@ -189,25 +189,6 @@ https://www.googleapis.com/auth/classroom.coursework.me
 https://www.googleapis.com/auth/gmail.send
 ```
 
-## Deployment
-
-### Vercel Deployment
-
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Add environment variables in Vercel dashboard
-4. Update Google OAuth redirect URIs to include your production domain
-5. Deploy!
-
-### Environment Variables for Production
-
-Make sure to add these environment variables in your production environment:
-- `GOOGLE_CLIENT_ID`
-- `GOOGLE_CLIENT_SECRET`
-- `NEXTAUTH_SECRET`
-- `NEXTAUTH_URL` (your production URL)
-- `GEMINI_API_KEY`
-
 ## Contributing
 
 1. Fork the repository
@@ -215,27 +196,6 @@ Make sure to add these environment variables in your production environment:
 3. Commit changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
-
-
-## Troubleshooting
-
-### Common Issues:
-
-1. **"Invalid Client" Error**
-   - Verify OAuth redirect URIs match exactly
-   - Check that client ID and secret are correct
-
-2. **"Insufficient Permissions" Error**
-   - Ensure all required APIs are enabled in Google Cloud Console
-   - Check OAuth consent screen configuration
-
-3. **"Invalid API Key" Error**
-   - Verify Gemini API key is correct
-   - Check that the key has proper permissions
-
-4. **No Assignments Loading**
-   - Ensure user has assignments in Google Classroom
-   - Check browser console for API errors
 
 ### Getting Help:
 
